@@ -91,6 +91,29 @@
       background: linear-gradient(90deg, var(--gold), var(--gold-bright));
     }
 
+    .home-pill {
+      position: fixed;
+      z-index: 30;
+      top: calc(12px + env(safe-area-inset-top));
+      right: calc(14px + env(safe-area-inset-right));
+      padding: 6px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--nav-bg);
+      color: var(--gold);
+      font-size: 0.85rem;
+      letter-spacing: 0.03em;
+      text-decoration: none;
+      box-shadow: 0 6px 18px var(--shadow);
+    }
+    @media (hover: hover) {
+      .home-pill { transition: color 160ms ease; }
+      .home-pill:hover { color: var(--gold-bright); }
+    }
+    @media print {
+      .home-pill { display: none; }
+    }
+
     .hero {
       min-height: min(780px, 88svh);
       display: grid;
@@ -399,6 +422,7 @@
   </style>
 </head>
 <body>
+  <a class="home-pill" href="https://jesuslovestyler.com/">⌂ Home</a>
   <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
 
   <main>
@@ -620,5 +644,6 @@
       window.addEventListener('resize', updateProgress, { passive: true });
     }());
   </script>
+  <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
