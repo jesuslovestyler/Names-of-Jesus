@@ -1,7 +1,8 @@
 # The Names of Jesus
 
-A worshipful page presenting the names of Jesus — each name a window into who He is: Wonderful Counselor, Prince of Peace, the Good Shepherd, the Bread of Life, and more. Each name comes with its Scripture and a short reflection on what it reveals.
+The names and titles of Jesus gathered from across the Bible — Wonderful Counselor, Prince of Peace, Lamb of God, Bread of Life, the Alpha and the Omega, and many more — each with its Scripture, in the World English Bible.
 
-Built with Muse artifacts. Scripture from the World English Bible (public domain).
+**Live:** https://jesuslovestyler.github.io/Names-of-Jesus/
+**Home:** https://jesuslovestyler.com/
 
-Live page: `index.html` — open it in any browser, or view it via GitHub Pages.
+Scripture is quoted from the World English Bible, a public-domain translation. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
